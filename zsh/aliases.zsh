@@ -1,9 +1,9 @@
 alias reload!='. ~/.zshrc'
 
 ### Directories
-alias ht="cd ~/Projects/ht"
-alias cfa="cd ~/Projects/codeforamerica"
-alias exercism="/Users/jcody/Projects/exercism/exercism"
+alias ht="cd ~/code/ht"
+alias cfa="cd ~/code/codeforamerica"
+alias exercism="/Users/jcody/code/exercism/exercism"
 
 ### Terminal
 alias vi="vim"
