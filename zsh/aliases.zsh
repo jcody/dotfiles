@@ -8,7 +8,8 @@ alias cfa="cd ~/code/codeforamerica"
 alias exercism="/Users/jcody/code/exercism/exercism"
 
 ### HT Specific
-alias ht-foreman='foreman start -c --formation="resque=1,sidekiq=1,es_indexer=1,rates_service=1"'
+alias ht-foreman="foreman start -c --formation='resque=1,sidekiq=1,es_indexer=1,rates_service=1'"
+alias ssh-prod="ey ssh --environment='hoteltonight_PRODUCTION' --account='Hotel-Tonight'"
 
 ### Terminal
 alias vi="vim"
