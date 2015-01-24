@@ -2,6 +2,7 @@ alias reload!='. ~/.zshrc'
 alias dfs='cd ~/.dotfiles'
 
 ### Directories
+alias code="cd ~/code"
 alias ht="cd ~/code/ht"
 alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
@@ -10,6 +11,7 @@ alias exercism="/Users/jcody/code/exercism/exercism"
 ### HT Specific
 alias ht-foreman="foreman start -c --formation='resque=1,sidekiq=1,es_indexer=1,rates_service=1'"
 alias ssh-prod="ey ssh --environment='hoteltonight_PRODUCTION' --account='Hotel-Tonight'"
+alias ssh-stage="ssh deploy@ec2-54-241-76-57.us-west-1.compute.amazonaws.com"
 
 ### Terminal
 alias vi="vim"
