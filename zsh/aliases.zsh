@@ -1,15 +1,21 @@
 alias reload!='. ~/.zshrc'
+alias dfs='cd ~/.dotfiles'
 
 ### Directories
 alias ht="cd ~/code/ht"
+alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
 alias exercism="/Users/jcody/code/exercism/exercism"
+
+### HT Specific
+alias ht-foreman="foreman start -c --formation='resque=1,sidekiq=1,es_indexer=1,rates_service=1'"
+alias ssh-prod="ey ssh --environment='hoteltonight_PRODUCTION' --account='Hotel-Tonight'"
 
 ### Terminal
 alias vi="vim"
 alias s.="subl ."
 alias clr="clear"
-alias ls="gls -F --color"
+#alias ls="gls -F --color"
 alias l="gls -lAh --color"
 alias ll="gls -l --color"
 alias la='gls -A --color'
