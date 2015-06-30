@@ -6,7 +6,6 @@ alias code="cd ~/code"
 alias ht="cd ~/code/ht"
 alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
-alias exercism="/Users/jcody/code/exercism/exercism"
 
 ### HT Specific
 alias ht-foreman="foreman start -c --formation='resque=1,sidekiq=1,es_indexer=1,rates_service=1'"
