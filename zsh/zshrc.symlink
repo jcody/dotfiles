@@ -47,3 +47,4 @@ set -o emacs
 
 unset config_files
 eval "$(rbenv init -)"
+export PATH="/usr/local/sbin:$PATH"
