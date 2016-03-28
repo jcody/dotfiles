@@ -1,8 +1,13 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
-
 # your project folder that we can `c [tab]` to
-export CODE=~/code
+export CODE=$HOME/code
+
+# go specific
+export GOPATH="$HOME/code/go"
+export GOBIN="$GOPATH/bin"
+
+export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
@@ -41,7 +46,4 @@ done
 set -o emacs
 
 unset config_files
-export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-export PATH="$HOME/.bin:$PATH"
-export PATH="$PATH:/usr/local/lib/node_modules"
