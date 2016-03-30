@@ -7,12 +7,15 @@ alias code="cd ~/code"
 alias ht="cd ~/code/ht"
 alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
+alias any="cd ~/code/anyperk"
+alias vb="cd  ~/code/anyperk/development; vagrant ssh"
 
 ### HT Specific
 alias ht-foreman="foreman start -c --formation='resque=1,sidekiq=1,es_indexer=1,rates_service=1'"
 
 ### Terminal
 alias vi="vim"
+alias subl="sublime"
 alias s.="subl ."
 alias clr="clear"
 alias l="gls -lAh --color"
