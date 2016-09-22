@@ -41,3 +41,4 @@ alias remigrate="bundle exec rake db:migrate db:migrate:redo db:schema:dump db:t
 ### Ops
 alias comp="docker-compose"
 alias be="bundle exec"
+alias cop="rubocop -c .ruby-style.yml"
