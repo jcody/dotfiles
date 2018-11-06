@@ -7,9 +7,6 @@ export CODE=$HOME/code
 export GOPATH="$HOME/code/go"
 export GOBIN="$GOPATH/bin"
 
-# AnyPerk-company specific
-export HRIS_PATH="$GOPATH/src/github.com/anyperk/anyperk-hris"
-
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 # use .localrc for SUPER SECRET CRAP that you don't
@@ -65,4 +62,4 @@ set -o emacs
 unset config_files
 eval "$(rbenv init -)"
 export PATH="/usr/local/sbin:$PATH"
-export PATH=$PATH:/Users/joeycody/code/anyperk/infrastructure/bin # AnyPerk Infrastructure
+export PATH="$HOME/.rbenv/bin:$PATH"

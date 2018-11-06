@@ -8,11 +8,8 @@ alias ht="cd ~/code/ht"
 alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
 
-### AnyPerk Specific
-alias any="cd ~/code/anyperk"
-alias ap="cd ~/code/anyperk/site"
-alias vb="cd  ~/code/anyperk/development; vagrant ssh"
-alias hris="cd ~/code/go/src/github.com/anyperk/anyperk-hris"
+### Fountain Specific
+alias ftn="cd ~/code/fountain/fountain"
 
 ### Terminal
 alias vi="vim"
