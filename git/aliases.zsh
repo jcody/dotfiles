@@ -26,3 +26,4 @@ alias grbm='git checkout master; git pull origin master; git checkout -; git reb
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
+alias glb="git for-each-ref --sort='-authordate:iso8601' --format='%(authordate:relative):%09%(refname:short)' refs/heads"
