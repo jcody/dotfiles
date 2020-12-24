@@ -39,5 +39,5 @@ alias remigrate="bundle exec rake db:migrate db:migrate:redo db:schema:dump db:t
 ### Ops
 alias comp="docker-compose"
 alias be="bundle exec"
-alias cop="rubocop -c ~/code/anyperk/site/.rubocop.yml"
-alias hound="git diff --name-only | xargs rubocop -c ~/code/anyperk/site/.rubocop.yml"
+alias cop="rubocop -c ~/code/fountain/fountain/.rubocop.yml"
+alias hound="git diff --name-only | xargs rubocop -c ~/code/fountain/fountain/.rubocop.yml"
