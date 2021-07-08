@@ -9,7 +9,7 @@ alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
 
 ### Fountain Specific
-alias ftn="cd ~/code/fountain/fountain"
+alias ftn="cd ~/code/fountain/monolith"
 
 ### Terminal
 alias vi="vim"
@@ -39,5 +39,5 @@ alias remigrate="bundle exec rake db:migrate db:migrate:redo db:schema:dump db:t
 ### Ops
 alias comp="docker-compose"
 alias be="bundle exec"
-alias cop="rubocop -c ~/code/fountain/fountain/.rubocop.yml"
-alias hound="git diff --name-only | xargs rubocop -c ~/code/fountain/fountain/.rubocop.yml"
+alias cop="rubocop -c ~/code/fountain/monolith/.rubocop.yml"
+alias hound="git diff --name-only | xargs rubocop -c ~/code/fountain/monolith/.rubocop.yml"
