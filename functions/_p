@@ -1,2 +1,2 @@
 #compdef p
-_files -W $CODE -/
+_files -W $PROJECTS -/
