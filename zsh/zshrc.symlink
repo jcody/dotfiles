@@ -77,3 +77,13 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 HEROKU_AC_ZSH_SETUP_PATH=/Users/jcody/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@13/bin:$PATH"
+
+# GNU grep, rather than OSX's limited BSD version of grep:
+export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+
+# bun completions
+[ -s "/Users/jcody/.bun/_bun" ] && source "/Users/jcody/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
