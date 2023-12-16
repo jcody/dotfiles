@@ -27,4 +27,4 @@ alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
 alias glb="git for-each-ref --sort='-authordate:iso8601' --format='%(authordate:relative):%09%(refname:short)' refs/heads"
-alias gclean="git branch --merged | egrep -v '(^\*|master|main|stable)' | xargs git branch -d"
+alias gclean="git branch --merged | ggrep -E -v '(^\*|master|main|stable)' | xargs git branch -d"
