@@ -1,0 +1,22 @@
+[user]
+	name = Joey Cody
+	email = joeydcody@gmail.com
+[pull]
+	rebase = false
+[push]
+	default = simple
+	autosetupremote = true
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+	excludesfile = ~/.gitignore
+[difftool]
+	prompt = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[help]
+	autocorrect = 1
