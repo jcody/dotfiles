@@ -9,7 +9,11 @@ alias hts="cd ~/code/ht/hotelstonight"
 alias cfa="cd ~/code/codeforamerica"
 
 ### Fountain Specific
+alias dent="cd ~/code/fountain/dent"
 alias ftn="cd ~/code/fountain/monolith"
+alias pool="cd ~/code/fountain/fountain_pool"
+alias sourcery="cd ~/code/fountain/sourcery"
+alias tide="cd ~/code/fountain/tide"
 
 ### Terminal
 alias vi="vim"
