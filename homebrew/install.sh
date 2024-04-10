@@ -22,10 +22,4 @@ then
 
 fi
 
-# Install homebrew bundle
-brew tap Homebrew/bundle
-
-# Install homebrew packages
-brew install grc coreutils spark
-
 exit 0

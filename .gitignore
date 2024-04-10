@@ -1,2 +1,5 @@
 fountain/*
 *.DS_Store
+
+Brewfile.lock.json
+git/gitconfig.local.symlink
