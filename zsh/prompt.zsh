@@ -50,23 +50,16 @@ need_push () {
   fi
 }
 
+user_name() {
+  echo "%{$fg_bold[yellow]%}$USER%\:%{$reset_color%}"
+}
+
 directory_name() {
   echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
 }
 
-battery_status() {
-  if test ! "$(uname)" = "Darwin"
-  then
-    exit 0
-  fi
+export PROMPT=$'\n$(user_name) $(directory_name) $(git_dirty)$(need_push)\n› '
 
-  if [[ $(sysctl -n hw.model) == *"Book"* ]]
-  then
-    $ZSH/bin/battery-status
-  fi
-}
-
-export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
