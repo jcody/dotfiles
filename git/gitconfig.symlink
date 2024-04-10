@@ -1,6 +1,6 @@
-[user]
-	name = Joey Cody
-	email = joeydcody@gmail.com
+# Local/private config goes in the include
+[include]
+	path = ~/.gitconfig.local
 [pull]
 	rebase = false
 [push]
@@ -20,3 +20,5 @@
 	ui = true
 [help]
 	autocorrect = 1
+[credential]
+	helper = osxkeychain
