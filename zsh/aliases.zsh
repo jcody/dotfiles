@@ -14,7 +14,6 @@ alias tide="cd ~/code/fountain/tide"
 
 ### Terminal
 alias vi="vim"
-# alias c.="code ."
 alias clr="clear"
 alias l="gls -lAh --color"
 alias ll="gls -l --color"

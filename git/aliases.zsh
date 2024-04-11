@@ -17,7 +17,7 @@ alias gco='git checkout'
 alias glg="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gl='git pull --prune'
 alias gp='git push origin HEAD'
-alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r'
+alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -Fr'
 alias gc='git commit'
 alias gca='git commit -a'
 alias gcb='git copy-branch-name'
