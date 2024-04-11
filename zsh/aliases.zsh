@@ -1,10 +1,6 @@
 alias reload!=". ~/.zshrc"
 alias dfs="cd ~/.dotfiles"
 
-### Directories
-# Used in zshrc to `c [tab]` into a ~/code/* directory
-# alias c="cd ~/code"
-
 ### Fountain Specific
 alias dent="cd ~/code/fountain/dent"
 alias ftn="cd ~/code/fountain/monolith"
