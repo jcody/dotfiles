@@ -10,6 +10,10 @@
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# Disable Terminal from capturing all keyboard input.
+#   Allows Dash.app overlay focus to capture text input without needing a mouse click.
+defaults write com.apple.terminal SecureKeyboardEntry -bool false
+
 # Use AirDrop over every interface. srsly this should be a default.
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 
