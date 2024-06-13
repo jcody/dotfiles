@@ -45,3 +45,7 @@ defaults write com.apple.Safari.plist IncludeDevelopMenu -bool true
 defaults write com.apple.Safari.plist WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari.plist "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Don't mark prompt lines in Terminal.
+#   @see: https://superuser.com/questions/974714/previous-commands-wrapped-with-square-brackets-in-os-x-terminal
+defaults write com.apple.Terminal AutoMarkPromptLines -int 0
