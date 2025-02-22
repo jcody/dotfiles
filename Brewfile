@@ -26,6 +26,7 @@ cask '1password-cli'
 cask '1password'
 cask 'alfred'
 cask 'cleanshot'
+cask 'cursor'
 cask 'cyberduck'
 cask 'dash@6' # Skip Dash 7+ for now, as it requires a monthly subscription
 cask 'google-chrome'
