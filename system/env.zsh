@@ -1,4 +1,4 @@
-export EDITOR='code'
+export EDITOR='cursor'
 
 # Spring sucks.
 export DISABLE_SPRING=1
