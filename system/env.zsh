@@ -1,5 +1,8 @@
 export EDITOR='cursor'
 
+# Homebrew no env hints:
+export HOMEBREW_NO_ENV_HINTS=1
+
 # Spring sucks.
 export DISABLE_SPRING=1
 

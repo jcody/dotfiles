@@ -6,6 +6,9 @@ then
   alias git=$hub_path
 fi
 
+# claude code:
+alias claude="/Users/jcody/.claude/local/claude"
+
 alias history="history 0"
 
 # The rest of my fun git aliases
