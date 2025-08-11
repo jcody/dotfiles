@@ -3,7 +3,7 @@
 # Or, in other words, set shit how I like in OS X.
 #
 # The original idea (and a couple settings) were grabbed from:
-#   https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+#   https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 #
 # Run ./set-defaults.sh and you'll be good to go.
 
@@ -49,3 +49,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Don't mark prompt lines in Terminal.
 #   @see: https://superuser.com/questions/974714/previous-commands-wrapped-with-square-brackets-in-os-x-terminal
 defaults write com.apple.Terminal AutoMarkPromptLines -int 0
+
+# Disable "Add period with double-space" when typing
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
