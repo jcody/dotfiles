@@ -51,3 +51,16 @@ There's a few special files in the hierarchy.
   your `$HOME`. This is so you can keep all of those versioned in your dotfiles
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
+
+## Terminal.app Configuration
+
+The `macos/configure-terminal.sh` script automatically configures Terminal.app with:
+- Black background
+- Monaco 14pt font
+- Disabled text antialiasing
+- Bold fonts enabled
+- Blinking text enabled
+- ANSI colors enabled
+- Bright colors for bold text disabled
+
+This runs automatically during `script/bootstrap` on macOS systems.

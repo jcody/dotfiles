@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-
 brew 'awscli'
 brew 'coreutils'
 brew 'grc'
@@ -15,7 +13,6 @@ brew 'rbenv'
 brew 'redis'
 brew 'ruby-build'
 brew 'spark'
-brew 'stripe/stripe-cli/stripe'
 brew 'wget'
 brew 'yarn'
 

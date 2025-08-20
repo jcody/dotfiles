@@ -150,6 +150,15 @@ then
   else
     fail "error installing dependencies"
   fi
+
+  # Configure Terminal.app appearance
+  info "configuring Terminal.app"
+  if source "$DOTFILES_ROOT/macos/configure-terminal.sh"
+  then
+    success "Terminal.app configured"
+  else
+    fail "error configuring Terminal.app"
+  fi
 fi
 
 echo ''
